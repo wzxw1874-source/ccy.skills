@@ -1,16 +1,13 @@
 ﻿# ccy.skills
 
-Personal Codex skill for CCY/Chen Chao Yu study, exam-answer writing, PPT planning, and image prompt preferences.
+This repository contains the unzipped `ccy` Codex skill.
 
 ## Included skill
 
-- `ccy/`: A complete Codex skill with `SKILL.md`, UI metadata, and focused reference files.
+- `ccy/SKILL.md`: skill entrypoint and trigger description
+- `ccy/agents/openai.yaml`: UI metadata
+- `ccy/references/`: detailed study, PPT, and image prompt preferences
 
-## Main preferences captured
+## Source
 
-- Chinese explanations by default for study tasks.
-- Intuition first, then LaTeX formulas and step-by-step derivation.
-- Exam-ready answer sections and one-sentence summaries.
-- Clear separation between problem statements, teacher comments, and inferred additions.
-- Clean academic technology style for PPTs.
-- Stable, uncluttered, subject-preserving image prompt style.
+Deployed from the extracted contents of `C:\Users\wzxw\Downloads\ccy.skills.zip`.
