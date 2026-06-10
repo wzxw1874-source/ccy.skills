@@ -1,0 +1,8 @@
+interface:
+  display_name: "CCY Study Style"
+  short_description: "Personal study, exam, PPT, and image prompt preferences."
+  default_prompt: "Use $ccy to turn my material into a clear, exam-ready Chinese explanation with formulas and a final summary."
+
+policy:
+  allow_implicit_invocation: true
+
