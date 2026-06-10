@@ -1,6 +1,6 @@
 ﻿# ccy.skills
 
-This repository contains the unzipped `ccy` Codex skill.
+This repository contains the unzipped `ccy` Codex skill.也就是说蒸馏陈超宇都来用就完了
 
 ## Included skill
 
