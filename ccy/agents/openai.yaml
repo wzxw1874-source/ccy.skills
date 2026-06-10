@@ -1,7 +1,7 @@
 interface:
   display_name: "CCY Study Style"
-  short_description: "Personal study, exam, PPT, and image prompt preferences."
-  default_prompt: "Use $ccy to turn my material into a clear, exam-ready Chinese explanation with formulas and a final summary."
+  short_description: "Personal study, exam, PPT, image, and prompt-writing preferences."
+  default_prompt: "Use $ccy to turn my material or rough idea into a clear, copy-ready result with CCY's preferred structure and constraints."
 
 policy:
   allow_implicit_invocation: true

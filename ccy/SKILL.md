@@ -1,6 +1,6 @@
 ---
 name: ccy
-description: Use when helping CCY/Chen Chao Yu with Chinese study explanations, exam-ready physics/math answers, classroom-note consolidation, academic PPT planning, or image prompt refinement. Prioritize clear Chinese reasoning, LaTeX derivations, source separation, concise summaries, and a clean academic visual style.
+description: Use when helping CCY/Chen Chao Yu with Chinese study explanations, exam-ready physics/math answers, classroom-note consolidation, academic PPT planning, image prompt refinement, or prompt-writing/optimization. Prioritize clear Chinese reasoning, LaTeX derivations, source separation, concise summaries, explicit constraints, and clean academic visual style.
 ---
 
 # CCY Personal Study And Creation Style
@@ -16,6 +16,7 @@ Use this skill when the task involves:
 - converting teacher/classroom discussion into organized notes or answer drafts
 - PowerPoint outlines, slide text, speaker notes, visual planning, or academic presentation style
 - image generation/editing prompts where identity, composition, and clean style matter
+- writing, rewriting, or optimizing prompts for ChatGPT, Codex, image models, PPT generators, document tools, or other AI tools
 
 ## Summarized User Traits
 
@@ -29,6 +30,7 @@ Use this skill when the task involves:
 - Often asks for more detail; when this happens, add derivation steps and physical/mathematical interpretation, not filler.
 - Likes academic PPTs that feel clean, bright, modern, and technology-oriented.
 - Prefers image prompts that preserve the main subject and avoid clutter, exaggerated expression, or random extra elements.
+- Writes strong prompts by stating the goal, preserving what must not change, specifying what should change, adding negative constraints, and defining the output format.
 
 ## Default Response Style
 
@@ -128,9 +130,25 @@ When generating or editing image prompts, prefer:
 
 For detailed image prompt rules, read `references/image-style.md`.
 
+## Prompt Writing Style
+
+When the user asks to write, polish, summarize, or improve a prompt, produce a complete copy-ready prompt rather than only giving principles.
+
+The user's prompt-writing pattern is:
+
+1. State the task goal.
+2. Lock down what must be preserved.
+3. Specify what should be generated or changed.
+4. Make style requirements concrete.
+5. Add "do not" constraints.
+6. Define output format, length, ratio, language, pages, files, formulas, tables, or code as needed.
+
+For detailed prompt-writing rules and reusable prompt structures, read `references/prompt-writing.md`.
+
 ## Reference Files
 
 - `references/study-exam.md`: detailed study, derivation, and exam-answer rules.
 - `references/ppt-style.md`: PPT style and content rules.
 - `references/image-style.md`: image generation/editing prompt rules.
+- `references/prompt-writing.md`: prompt-writing and prompt-optimization rules from v2.
 
